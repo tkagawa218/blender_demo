@@ -11,6 +11,8 @@
 
 ![Batch Rename](https://user-images.githubusercontent.com/placeholder/batch_rename.gif)
 
+## 🎬 実演GIF
+![rename demo](./gifs/rename.gif)
 ---
 
 ### 2. 📐 整列ツール（align_tools.py）
@@ -18,6 +20,8 @@
 
 ![Align Tool](https://user-images.githubusercontent.com/placeholder/align_tool.gif)
 
+## 🎬 実演GIF
+![rename demo](./gifs/align.gif)
 ---
 
 ### 3. 🎨 ランダムカラー適用（random_colorizer.py）
@@ -25,6 +29,8 @@
 
 ![Random Color](https://user-images.githubusercontent.com/placeholder/random_color.gif)
 
+## 🎬 実演GIF
+![rename demo](./gifs/color.gif)
 ---
 
 ### 4. 📤 FBX出力支援（fbx_export_helper.py）
@@ -32,6 +38,8 @@
 
 ![Export FBX](https://user-images.githubusercontent.com/placeholder/fbx_export.gif)
 
+## 🎬 実演GIF
+![rename demo](./gifs/export.gif)
 ---
 
 ## 🔽 使用方法
