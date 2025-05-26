@@ -1,0 +1,5 @@
+__pycache__/
+*.blend1
+*.pyc
+.DS_Store
+assets/demo_gifs/*.blend
