@@ -34,13 +34,6 @@
 
 ---
 
-### 5. 🧰 FBX出力（UI付き） - fbx_export_helper_ui.py
-GUIパネルから出力設定を行える高度なFBXエクスポートツールです。
-
-![Export UI](https://user-images.githubusercontent.com/placeholder/fbx_export_ui.gif)
-
----
-
 ## 🔽 使用方法
 
 1. Blenderの[アドオン]から `.py` ファイルをインストール
