@@ -1,52 +1,50 @@
 # Blender Addon Portfolio
 
-このリポジトリは、Blender用のカスタムアドオンを集めたポートフォリオです。Pythonを用いて、モデリングや出力作業を効率化するツールを開発しています。
+Unity・ゲーム開発の経験を活かして、Blenderで作業効率を向上させるアドオンを開発しています。  
+Python初心者からスタートし、学習過程を含めて実用的なツールにまとめました。
 
 ---
 
-## 🔧 アドオン一覧と機能
+## 📦 収録アドオン一覧
 
-### 1. 📝 一括リネーム（batch_renamer.py）
-選択中のオブジェクト名に接頭辞・接尾辞を付けてリネーム。連番にも対応。
+| アドオン名 | 説明 |
+|-----------|------|
+| 🔤 `batch_renamer.py` | 選択中オブジェクトを一括リネーム（接頭辞・接尾辞・連番対応） |
+| 📐 `align_tools.py` | X/Y/Z軸に沿ってオブジェクト整列。ランダム配置にも対応 |
+| 🎨 `random_colorizer.py` | 選択オブジェクトにランダムなマテリアル色を適用 |
+| 📁 `fbx_export_helper.py` | 選択オブジェクトを個別にFBX出力。出力先フォルダ選択可能 |
+| 🧰 `fbx_export_helper_ui.py` | 出力オプションをUIで設定可能なFBXエクスポート支援ツール |
 
-![Batch Rename](https://user-images.githubusercontent.com/placeholder/batch_rename.gif)
-
-## 🎬 実演GIF
-![rename demo](./gifs/rename.gif)
 ---
 
-### 2. 📐 整列ツール（align_tools.py）
-選択オブジェクトをX/Y/Z軸に沿って整列させます。
+## 🖼️ デモ画像・動画
 
-![Align Tool](https://user-images.githubusercontent.com/placeholder/align_tool.gif)
+| 機能 | 動作GIF |
+|------|---------|
+| 一括リネーム | ![](assets/demo_gifs/batch_rename.gif) |
+| 整列/ランダム配置 | ![](assets/demo_gifs/align.gif) |
+| FBX出力支援 | ![](assets/demo_gifs/fbx_export.gif) |
 
-## 🎬 実演GIF
-![rename demo](./gifs/align.gif)
 ---
 
-### 3. 🎨 ランダムカラー適用（random_colorizer.py）
-オブジェクトにランダムな色をマテリアルで割り当てます。
+## 🧠 関連ブログ記事（Zenn）
 
-![Random Color](https://user-images.githubusercontent.com/placeholder/random_color.gif)
+📘 実演GIFや制作フローを含む詳細記事はこちら：  
+👉 https://zenn.dev/tkagawa/articles/874418558730c0
 
-## 🎬 実演GIF
-![rename demo](./gifs/color.gif)
 ---
 
-### 4. 📤 FBX出力支援（fbx_export_helper.py）
-選択中の各オブジェクトを個別のFBXとして出力します。
+## 💻 環境
+- Blender 3.6 / 4.0
+- Python 3.10以降
 
-![Export FBX](https://user-images.githubusercontent.com/placeholder/fbx_export.gif)
-
-## 🎬 実演GIF
-![rename demo](./gifs/export.gif)
 ---
 
-## 🔽 使用方法
+## 🔧 導入方法
 
-1. Blenderの[アドオン]から `.py` ファイルをインストール
-2. `Nキー` を押してサイドバー表示（必要に応じて）
-3. 各アドオンに対応したUIやOperatorを操作
+1. このリポジトリをダウンロード or `git clone`
+2. `addons/` 内の `.py` ファイルを [Blender] > [Edit] > [Preferences] > [Add-ons] > [Install] から選択
+3. サイドバーに各機能タブが表示されます
 
 ---
 
@@ -56,6 +54,6 @@ MIT License
 
 ---
 
-## 🧑‍💻 作者 Tatsuya Kagawa
+## 🧑‍💻 作者
 
 このアドオンは、UnityやC#での開発経験を活かして作成された、Python初心者からの挑戦ポートフォリオです。
