@@ -54,6 +54,11 @@ MIT License
 
 ---
 
+✉  Mall:   [Adress](tkagawa218@gmail.com)  
+
+---
+
+
 ## 🧑‍💻 作者
 
 このアドオンは、UnityやC#での開発経験を活かして作成された、Python初心者からの挑戦ポートフォリオです。
